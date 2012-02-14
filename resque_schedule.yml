@@ -1,0 +1,5 @@
+sample:
+  cron:  "*/1 * * * *"
+  queue: sample_queue
+  class: SampleJob
+  args: "sample"
